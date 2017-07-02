@@ -1,0 +1,179 @@
+/* Police : "Open Sans", Arial, sans-serif
+Code couleur du vert : #b5ce00 */
+
+.container {
+	width: 1081px;
+}
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* HEADER */
+
+nav {
+	margin-top: 2px;
+	background-color : #b5ce00;
+	border-radius: 0 !important;
+}
+
+nav li a {
+	color: white;
+}
+
+header img {
+	width: 1050px;
+}
+
+/* BASELINE */
+
+.baseline {
+	margin-top : 30px;
+	height: 390px;
+	background-color: #d9d0d4;
+}
+
+.baseline img {
+	margin-top: 34px;
+}
+
+/* 
+BODY */
+
+/* Articles */
+section {
+	padding-top: 56px;
+	padding-left: 150px;
+	padding-bottom: 50px;
+}
+article {
+	display: flex;
+}
+
+article p {
+	margin : 0;
+	width: 375px;
+}
+
+p {
+	padding-left: 30px;
+}
+p span {
+	font-size: 26.4px;
+	font-weight: bold;
+}
+
+section {
+	float: left;
+}
+
+/* ASIDE */
+aside .lead {
+	background-color:#b5ce00 ;
+	width: 310px;
+	height: 36px;
+}
+
+aside p.lead {
+	color: white;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+aside {
+	float: right;
+	width: 32%;
+	padding-top: 50px;
+}
+
+/* appli du jour */ 
+
+#jeu {
+	width:40px;
+}
+
+#maki {
+	display: inline-block;
+}
+
+#maki img {
+	height:100px;
+	width: 95px;
+	float: left;
+}
+
+#maki p span{
+	font-size:12px;	
+}
+
+#maki p {
+	font-size:10px;
+	padding-left: 100px;
+	width: 72%;	
+}
+
+#reseaux {
+	padding-top: 45px;
+	display: flex;
+	justify-content: space-between;
+	width: 69%;
+	padding-bottom: 35px;
+}
+
+#reseaux img {
+	height: 55px;
+	width: 55px;
+}
+
+/* identification*/ 
+
+/* form*/ 
+
+form {
+	width:72%;
+}
+
+label {
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.pouruser, .pourmdp {
+	display: flex;
+	justify-content: space-between;
+	color: #606972;
+}
+
+.pouruser input,.pourmdp input { 
+	width: 220px;
+}
+
+.checkbox input{
+	margin:0px;
+}
+
+form p {
+	padding:0px;
+	color: #606972;
+}
+
+/* connexion*/ 
+
+#slideOne {
+	margin-left: 1px;
+	margin-top: 4px;
+}
+
+.checkbox p {
+	padding-left: 20px;
+}
+
+button {
+	background-color: #f2f2f2;
+	border-radius: 0 !important; 
+	color: #aeabbc;
+}
+
+.inscription {
+	padding-top: 10px;
+}
